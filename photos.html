@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy Birthday!!! :)</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body {
+    background-image:url("brooo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    .college-frame {
+        width: 80%;
+        max-width: 800px;
+        margin: 20px auto;
+        border: 10px solid #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        opacity: 0.8; /* Set the initial opacity */
+    }
+
+    .photo:hover {
+        transform: scale(1.1);
+        opacity: 1; /* Set the opacity on hover */
+    }
+</style>
+
+<body>
+    <div class="college-frame">
+        <img class="photo" src="brooo.jpg" alt="Photo 1">
+        <img class="photo" src="brooo.jpg" alt="Photo 2">
+        <img class="photo" src="brooo.jpg" alt="Photo 3">
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script type="application/javascript" src="main.js"></script>
+
+</html>
